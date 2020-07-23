@@ -21,7 +21,8 @@ code=flareDownloader('python').download(30)
 
 # Default Save location 
 
-make sure your save location is set to `default [Firefox]` or do it for the `first time`.
+Make sure your save location is set to `default [Firefox]` or do it for the `first time`, after the 
+automation process begins and pop up window for Save location.
 
 # Delay
 

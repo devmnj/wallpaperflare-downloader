@@ -9,14 +9,13 @@ from webdriver_manager.firefox import GeckoDriverManager
 
 class flareDownloader:
     base_url = []
-    browser = None
+    browser = webdriver.Firefox(executable_path=GeckoDriverManager().install())
 
     def __init__(self, search, browser='Firefox'):
         base_urls = []
         if browser != 'Firefox':
             self.browser = webdriver.Chrome(ChromeDriverManager().install())
-        else:
-            browser = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+
 
         self.browser.get(f'https://www.wallpaperflare.com/search?wallpaper={search}')
         time.sleep(3)
@@ -51,6 +50,7 @@ class flareDownloader:
                     dl_link = self.browser.find_element_by_id('dld_result')
                     dl_link.click()
                     count = count + 1
+
             except:
                 pass
         print(f'{count}  wallpapers downloaded')

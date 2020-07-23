@@ -1,0 +1,52 @@
+1595525799803	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manoj\\AppData\\Local\\Temp\\rust_mozprofile97h3EH"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1595525802565	Marionette	INFO	Listening on port 52808
+1595525802922	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595525914149	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manoj\\AppData\\Local\\Temp\\rust_mozprofileYOZhQQ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1595525916732	Marionette	INFO	Listening on port 52872
+1595525916756	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595526163687	Marionette	INFO	Stopped listening on port 52872
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1595525954392	Marionette	INFO	Listening on port 52921
+1595525954833	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595526162521	Marionette	INFO	Stopped listening on port 52921
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1595526032361	Marionette	INFO	Listening on port 52997
+1595526032847	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595526161494	Marionette	INFO	Stopped listening on port 52997
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1595526757850	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manoj\\AppData\\Local\\Temp\\rust_mozprofileKsNpiU"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+1595526760661	Marionette	INFO	Listening on port 53412
+1595526760961	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595526824242	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manoj\\AppData\\Local\\Temp\\rust_mozprofilem3aK2n"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1595526826755	Marionette	INFO	Listening on port 53497
+1595526826862	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-2606419576769320&output=html&h=90&slotname=3497086563&adk=1297698620&adf=1057643952&w=1086&fwrn=4&lmt=1595526858&rafmt=10&psa=0&guci=2.2.0.0.2.2.0.0&format=1086x90_0ads_al&url=https%3A%2F%2Fwww.wallpaperflare.com%2Fsearch%3Fwallpaper%3Dcity&flash=0&fwr=0&fwrattr=true&wgl=1&adsid=NT&dt=1595526849886&bpp=1&bdt=14715&idt=8807&shv=r20200721&cbv=r20190131&ptt=9&saldr=aa&abxe=1&prev_fmts=0x0%2C970x90&nras=1&correlator=3778677648876&frm=20&pv=1&ga_vid=331842170.1595526859&ga_sid=1595526859&ga_hid=1124808231&ga_fc=0&icsg=141832&dssz=17&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=864&u_w=1536&u_ah=824&u_aw=1536&u_cd=24&u_nplug=0&u_nmime=0&adx=90&ady=264&biw=1266&bih=700&scr_x=0&scr_y=0&eid=182982100%2C182982300&oid=3&pvsid=1685584360881771&pem=499&rx=0&eae=0&fc=1920&brdim=3%2C3%2C3%2C3%2C1536%2C0%2C1294%2C779%2C1283%2C700&vis=1&rsz=%7C%7CepE%7C&abl=CS&pfx=0&fu=8320&bc=29&ifi=2&uci=a!2&xpc=F1B3ZNQv1K&p=https%3A//www.wallpaperflare.com&dtd=8816, line 1: ReferenceError: buildAttribution is not defined
+1595527027092	Marionette	INFO	Stopped listening on port 53497
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
