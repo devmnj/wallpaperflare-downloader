@@ -1,12 +1,22 @@
-from setuptools import setup
+import setuptools
 
-setup(
-    name='wallspyder',
-    version='1.0',
-    packages=['wallspyder','webdriver_manager','selenium'],
-    url='http://github.com/manojap/wallspyder',
-    license='GNU  OPEN SOURCE',
-    author='manoj',
-    author_email='MANOJAP@OUTLOOK.COM',
-    description='Collection Wallpaper downloader selenium browser auutomation'
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
+    name="wallspyder", # Replace with your own username
+    version="0.0.1",
+    author="MANOJ AP",
+    author_email="manojap@outlook.com",
+    description="A collection of Wallpaper selenium automation scripts",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/manojap/",
+    packages=setuptools.find_packages(),
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires='>=3.6',
 )

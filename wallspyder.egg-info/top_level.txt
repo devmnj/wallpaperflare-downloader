@@ -1,0 +1,3 @@
+selenium
+wallspyder
+webdriver_manager
