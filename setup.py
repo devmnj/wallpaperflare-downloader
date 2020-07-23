@@ -8,7 +8,7 @@ setuptools.setup(
     version="0.0.1",
     author="MANOJ AP",
     author_email="manojap@outlook.com",
-    description="A collection of Wallpaper selenium automation scripts",
+    description="A collection of  selenium automation scripts for downloading Wallpapers",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/manojap/wallspyder",

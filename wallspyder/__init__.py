@@ -4,8 +4,8 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 
-# Downloader for Wallpaperflare.com
 
+# Downloader for Wallpaperflare.com
 
 class flareDownloader:
     base_url = []
@@ -13,7 +13,7 @@ class flareDownloader:
 
     def __init__(self, search, browser='Firefox'):
         base_urls = []
-        if browser  != 'Firefox':
+        if browser != 'Firefox':
             self.browser = webdriver.Chrome(ChromeDriverManager().install())
         else:
             browser = webdriver.Firefox(executable_path=GeckoDriverManager().install())
