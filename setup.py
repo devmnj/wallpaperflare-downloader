@@ -11,8 +11,9 @@ setuptools.setup(
     description="A collection of Wallpaper selenium automation scripts",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/manojap/",
-    packages=setuptools.find_packages(where='wallspyder'),
+    url="https://github.com/manojap/wallspyder",
+    packages=setuptools.find_packages(),
+    install_requires=['webdriver_manager','selenium'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
