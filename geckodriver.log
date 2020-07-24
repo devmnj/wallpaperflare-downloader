@@ -50,3 +50,7 @@ JavaScript error: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-2
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1595554658769	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manoj\\AppData\\Local\\Temp\\rust_mozprofilehLR77S"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1595554665687	Marionette	INFO	Listening on port 54969
+1595554666194	Marionette	WARN	TLS certificate errors will be ignored for this session

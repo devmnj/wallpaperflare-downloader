@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: wallspyder
 Version: 0.0.1
-Summary: A collection of Wallpaper selenium automation scripts
-Home-page: https://github.com/manojap/
+Summary: A collection of  selenium automation scripts for downloading Wallpapers
+Home-page: https://github.com/manojap/wallspyder
 Author: MANOJ AP
 Author-email: manojap@outlook.com
 License: UNKNOWN
@@ -20,9 +20,7 @@ Description: # wallspyder
         # How to use 
         
         ```
-        git clone https://github.com/manojap/wallspyder.git
-        
-        pip install -r  requirements.txt
+        pip install git+https://github.com/manojap/wallspyder.git
         
         from wallspyder import flareDownloader
         
@@ -31,7 +29,8 @@ Description: # wallspyder
         
         # Default Save location 
         
-        make sure your save location is set to `default [Firefox]` or do it for the `first time`.
+        Make sure your save location is set to `default [Firefox]` or do it for the `first time`, after the 
+        automation process begins and pop up window for Save location.
         
         # Delay
         
