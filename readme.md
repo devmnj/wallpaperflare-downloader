@@ -10,7 +10,7 @@ There are plenty of website which make available awesome wallpapers , but only f
 
 1. http://wallpaperflare.com
 2. http://pexels.com    -- Free stock images 
-3. htt://unsplash.com -- Free stock images
+3. http://unsplash.com -- Free stock images
 
 # How to use 
 
