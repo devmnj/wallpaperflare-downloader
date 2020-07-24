@@ -20,6 +20,8 @@ or
 clone the repo
 git clone https://github.com/manojap/wallspyder.git
 
+pip install -r requirements.txt
+
 from wallspyder import flareDownloader
 
 code=flareDownloader('python').download(30)
