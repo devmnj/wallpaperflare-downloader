@@ -12,7 +12,13 @@ There are plenty of website which make available awesome wallpapers , but only f
 # How to use 
 
 ```
+Install the package
 pip install git+https://github.com/manojap/wallspyder.git
+
+or
+
+clone the repo
+git clone https://github.com/manojap/wallspyder.git
 
 from wallspyder import flareDownloader
 
