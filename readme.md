@@ -22,7 +22,7 @@ images.
 In Windows you can just install the pacakge from github git with `pip` command as follows
 
 ```python
-Install the package
+# Install the package
 pip install git+https://github.com/manojap/wallspyder.git
 
 from wallspyder import pexels
@@ -37,7 +37,7 @@ pexels.search('fruits').download()
 On linux and Mac you need to clone the repo and install requirements
 
 ```python
-clone the repo
+# clone the repo
 
 git clone https://github.com/manojap/wallspyder.git
 
