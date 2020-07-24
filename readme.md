@@ -1,6 +1,6 @@
 # wallspyder
 
-Set of wallpaper download automation scripts using selenium package. You can serach and download wall paper in a single line of brilliant python code,
+Set of wallpaper download automation scripts using selenium package. You can search and download wall paper in a single line of brilliant python code,
 using the appropriate class and methods.
 
 # Websites Included
@@ -32,7 +32,7 @@ automation process begins and pop up window for Save location.
 cars = flareDownloader('cars').download(delay=100)
 ```
 
-Even though I included the Firefox and chrome support , only Firefox make good result for me. So I recomment Firefox 
+Even though I included the Firefox and chrome support , only Firefox make good result for me. So I recommend Firefox 
 
 # Future 
 
