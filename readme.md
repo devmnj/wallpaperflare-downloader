@@ -17,11 +17,11 @@ There are plenty of website which make available awesome wallpapers , but only f
 Go head, clone or install the package and just use the appropriate object to search and download 
 images.
 
-## Windows
+## On Windows
 
-In windows versions you can just install the pacakge with `pip` command as fllows
+In Windows you can just install the pacakge from github git with `pip` command as follows
 
-```
+```python
 Install the package
 pip install git+https://github.com/manojap/wallspyder.git
 
@@ -32,11 +32,11 @@ wallpaperflare.search('python').download(30)
 pexels.search('fruits').download()
 ```
 
-## Linux or Mac
+## On Linux or Mac
 
 On linux and Mac you need to clone the repo and install requirements
 
-```
+```python
 clone the repo
 
 git clone https://github.com/manojap/wallspyder.git
@@ -53,13 +53,13 @@ pexels.search('fruits').download()
 # Default Save location  - Firefox
 
 Make sure your save location is set to `default [Firefox]` or do it for the `first time`, after the 
-automation process begins and pop up window for Save location.
+automation process begins and pop up window for file action.
 
 # Delaying download
 
 `Use delay` for wait some time for loading downloading button in slower internet connection
 
-```
+```python
 cars = flareDownloader('cars').download(delay=100)
 ```
 

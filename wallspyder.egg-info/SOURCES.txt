@@ -1,5 +1,8 @@
 setup.py
 wallspyder/__init__.py
+wallspyder/pexels.py
+wallspyder/unsplash.py
+wallspyder/wallpaperflare.py
 wallspyder.egg-info/PKG-INFO
 wallspyder.egg-info/SOURCES.txt
 wallspyder.egg-info/dependency_links.txt

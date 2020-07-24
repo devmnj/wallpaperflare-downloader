@@ -15,7 +15,7 @@ class search:
     browser = None
     chrome_opt = Options()
 
-    def __init__(self, search, browser='Chrome', delay=2, head_less=False):
+    def __init__(self, search, browser='Firefox', delay=2, head_less=False):
 
         """ Initialize the search for stock free images from pexels.com using
         selenium automation with Firefox or Chrome browser Driver
@@ -23,8 +23,8 @@ class search:
 
         :param search: search term
         :type search: str
-        :param browser: configure browser for automation (default Chrome)
-        :type browser: str
+        :param browser: configure browser for automation (default Firefox)
+        :type browser: str (default Firefox)
         :param delay: delaying loading searched gallery, in seconds (default 2)
         :type delay: int
         :param head_less: mode of working, can run in the back ground in head_less mode (default False) -- coming soon
