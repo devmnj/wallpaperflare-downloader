@@ -5,11 +5,11 @@ from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 
 
-# Downloader for pexels.com
+# Downloader for unsplash.com
 
 class search:
     """ Class which provides search and download free stock images from
-    www.pexels.com
+    www.unsplash.com
     """
     photo_url = []
     browser = None
@@ -17,7 +17,7 @@ class search:
 
     def __init__(self, search, browser='Firefox', delay=2, head_less=False):
 
-        """ Initialize the search for stock free images from pexels.com using
+        """ Initialize the search for stock free images from unsplash.com using
         selenium automation with Firefox or Chrome browser Driver
 
 
@@ -40,31 +40,33 @@ class search:
             else:
                 self.browser = webdriver.Firefox(executable_path=GeckoDriverManager().install())
 
-            self.browser.get(f'https://www.pexels.com/search/{search}')
+            self.browser.get(f'https://www.unsplash.com/s/photos/{search}')
 
             time.sleep(delay)
-            print('You are using pexels.com - Free stock photos')
-            result = self.browser.find_element_by_class_name('search__grid')
-
-            photos = result.find_elements_by_class_name('photos')
-            for p in photos:
-                cols = p.find_elements_by_class_name('photos__column')
-                for l1 in cols:
-                    photo_divs = l1.find_elements_by_class_name('hide-featured-badge')
-                    for f in photo_divs:
-                        articles = f.find_elements_by_tag_name('article')
-                        for ar in articles:
-                            art_link = ar.find_elements_by_tag_name('a')
-                            for a in art_link:
-                                url = a.get_property('href')
-                                if str(url).find('@') < 0 and str(url).find('download') < 0:
-                                    self.photo_url.append(url)
+            print('You are using unsplash.com - Free stock images')
+            root = self.browser.find_elements_by_class_name('qztBA')
+            for r in root:
+                root2 = r.find_elements_by_tag_name('div')
+                for d1 in root2:
+                    div1 = d1.find_elements_by_class_name('nDTlD')
+                    for d2 in div1:
+                        fig = d2.find_elements_by_tag_name('figure')
+                        for f in fig:
+                            div3 = f.find_elements_by_class_name('_232xU')
+                            for ar in div3:
+                                div4 = ar.find_elements_by_class_name('_3A74U')
+                                for d4 in div4:
+                                    d5 = d4.find_elements_by_class_name('_1hIRM')
+                                    for a in d5:
+                                        link = a.find_elements_by_tag_name('a')
+                                        x = link[0].get_property('href')
+                                        self.photo_url.append(x)
         except:
             pass
 
     def download(self, delay=1):
         """
-        Download stock photos from pexels.com
+        Download stock photos from unsplash.com
 
         :param delay: delaying download in second (default 1)
         :type  delay: int
@@ -76,11 +78,10 @@ class search:
                 try:
                     print(l1)
                     self.browser.get(l1)
+                    proute=self.browser.find_elements_by_class_name('_2vsJm')
+                    a=proute[0].find_elements_by_tag_name('a')
                     time.sleep(delay)
-                    dn = self.browser.find_element_by_class_name('rd__button--download')
-                    time.sleep(1)
-                    dn.click()
-                    time.sleep(3)
+                    a[0].click()
                     count = count + 1
 
                 except:
