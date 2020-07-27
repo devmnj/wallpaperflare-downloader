@@ -1,4 +1,3 @@
-from  wallspyder import unsplash
+from wallspyder import unsplash
 
-unsplash.search('beauty',browser='Chrome').download()
-
+unsplash.search().filter_by_tag('travel')

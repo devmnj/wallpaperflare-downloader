@@ -15,16 +15,27 @@ class search:
     browser = None
     chrome_opt = Options()
 
-    def __init__(self, search, browser='Chrome', delay=2, head_less=False):
+    def __init__(self, br_name='Chrome'):
+        """
+        Initialize Unsplash bot
 
-        """ Initialize the search for stock free images from unsplash.com using
-        selenium automation with Firefox or Chrome browser Driver
+        :param br_name: configure browser for automation (default Chrome)
+        :type br_name: str
 
+        """
+        base_urls = []
+        if br_name != 'Chrome':
+            self.browser = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+        else:
+            self.browser = webdriver.Chrome(executable_path=ChromeDriverManager().install())
+
+    def find(self, search, delay=2, head_less=False):
+
+        """  Search for stock free images from unsplash.com using
+         unsplash bot
 
         :param search: search term
         :type search: str
-        :param browser: configure browser for automation (default Chrome)
-        :type browser: str
         :param delay: delaying loading searched gallery, in seconds (default 2)
         :type delay: int
         :param head_less: mode of working, can run in the back ground in head_less mode (default False) -- coming soon
@@ -32,14 +43,6 @@ class search:
         """
 
         try:
-            base_urls = []
-            if browser != 'Firefox':
-                if head_less is True:
-                    self.chrome_opt.add_argument('--headless')
-                self.browser = webdriver.Chrome(executable_path=ChromeDriverManager().install())
-            else:
-                self.browser = webdriver.Firefox(executable_path=GeckoDriverManager().install())
-
             self.browser.get(f'https://www.unsplash.com/s/photos/{search}')
 
             time.sleep(delay)
@@ -61,6 +64,46 @@ class search:
                                         link = a.find_elements_by_tag_name('a')
                                         x = link[0].get_property('href')
                                         self.photo_url.append(x)
+            self.download()
+        except:
+            pass
+
+    def filter_by_tag(self, tag, delay=2):
+
+        """ Search for stock free images from unsplash.com using
+        tag name
+
+
+        :param tag: search tag
+        :type tag: str
+
+        :param delay: delaying loading searched gallery, in seconds (default 2)
+        :type delay: int
+
+        """
+
+        try:
+
+            self.browser.get(f'https://www.unsplash.com/t/{tag}')
+
+            time.sleep(delay)
+            print('You are using unsplash.com - Free stock images')
+            root = self.browser.find_elements_by_class_name('qztBA')
+            for r in root:
+                root2 = r.find_elements_by_tag_name('div')
+                for d1 in root2:
+                    div1 = d1.find_elements_by_class_name('nDTlD')
+                    for d2 in div1:
+                        fig = d2.find_elements_by_tag_name('figure')
+                        for f in fig:
+                            div31 = f.find_elements_by_class_name('_6IG7')
+                            for d4 in div31:
+                                d5 = d4.find_elements_by_class_name('_1hIRM')
+                                for a in d5:
+                                    link = a.find_elements_by_tag_name('a')
+                                    x = link[0].get_property('href')
+                                    self.photo_url.append(x)
+            self.download()
         except:
             pass
 
@@ -78,8 +121,8 @@ class search:
                 try:
                     print(l1)
                     self.browser.get(l1)
-                    proute=self.browser.find_elements_by_class_name('_2vsJm')
-                    a=proute[0].find_elements_by_tag_name('a')
+                    proute = self.browser.find_elements_by_class_name('_2vsJm')
+                    a = proute[0].find_elements_by_tag_name('a')
                     time.sleep(delay)
                     a[0].click()
                     count = count + 1
