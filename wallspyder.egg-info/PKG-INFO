@@ -1,11 +1,11 @@
-Metadata-Version: 2.1
+Metadata-Version: 1.1
 Name: wallspyder
-Version: 0.0.1
-Summary: A collection of  selenium automation scripts for downloading Wallpapers
-Home-page: https://github.com/manojap/wallspyder
-Author: MANOJ AP
+Version: 1.1.5
+Summary: Wallpaper downloading bots
+Home-page: http://github.com/manojap/wallspyder
+Author: Manoj A.P
 Author-email: manojap@outlook.com
-License: UNKNOWN
+License: BSD
 Description: # wallspyder
         
         Set of wallpaper download automation scripts using selenium package and Webdriver. You can search 
@@ -31,6 +31,8 @@ Description: # wallspyder
         
         ```python
         # Install the package
+        pip install wallspyder
+        or
         pip install git+https://github.com/manojap/wallspyder.git
         
         from wallspyder import pexels
@@ -78,9 +80,8 @@ Description: # wallspyder
         More site will be included in the upcoming. Welcome to join me on this humble effort
         
         Have some picture sites in mind, i can scrap it, let me know.
+Keywords: wallpaper,download,stock images
 Platform: UNKNOWN
-Classifier: Programming Language :: Python :: 3
-Classifier: License :: OSI Approved :: MIT License
-Classifier: Operating System :: OS Independent
-Requires-Python: >=3.6
-Description-Content-Type: text/markdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Fun
+Classifier: License :: OSI Approved :: BSD License
