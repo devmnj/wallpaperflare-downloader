@@ -11,8 +11,8 @@ def read(fname):
 
 
 setup(
-    name="wallspyder",
-    version="1.1.5",
+    name="wallbay",
+    version="1.0.0",
     author="Manoj A.P",
     author_email="manojap@outlook.com",
     description="Wallpaper downloading bots",
