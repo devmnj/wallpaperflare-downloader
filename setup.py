@@ -19,7 +19,7 @@ setup(
     license="BSD",
     keywords="wallpaper,download,stock images",
     url="http://github.com/manojap/wallspyder",
-    packages=['wallspyder'],
+    packages=['wallbay'],
     long_description=read('readme.md'),
     install_requires=['selenium', 'webdriver-manager'],
     classifiers=[
