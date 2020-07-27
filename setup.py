@@ -11,15 +11,15 @@ def read(fname):
 
 
 setup(
-    name="wallbay",
-    version="1.0.0",
+    name="wallspyder",
+    version="1.1.5",
     author="Manoj A.P",
     author_email="manojap@outlook.com",
     description="Wallpaper downloading bots",
     license="BSD",
     keywords="wallpaper,download,stock images",
     url="http://github.com/manojap/wallspyder",
-    packages=['wallbay'],
+    packages=['wallspyder'],
     long_description=read('readme.md'),
     install_requires=['selenium', 'webdriver-manager'],
     classifiers=[
