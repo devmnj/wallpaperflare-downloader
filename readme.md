@@ -1,4 +1,5 @@
 # wallspyder
+![Python package](https://github.com/manojap/wallspyder/workflows/Python%20package/badge.svg)
 
 Set of wallpaper download automation scripts using selenium package and Webdriver. You can search 
 and download wall paper in a single line of brilliant python code,using the appropriate
