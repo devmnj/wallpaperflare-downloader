@@ -23,6 +23,8 @@ In Windows you can just install the pacakge from github git with `pip` command a
 
 ```python
 # Install the package
+pip install wallspyder
+or
 pip install git+https://github.com/manojap/wallspyder.git
 
 from wallspyder import pexels
