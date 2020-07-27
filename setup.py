@@ -21,7 +21,7 @@ setup(
     url="http://github.com/manojap/wallspyder",
     packages=['wallspyder'],
     long_description=read('readme.md'),
-    install_requires=['selenium', 'webdriver-manager']
+    install_requires=['selenium', 'webdriver-manager'],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Fun",
