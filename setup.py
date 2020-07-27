@@ -12,7 +12,7 @@ def read(fname):
 
 setup(
     name="wallspyder",
-    version="1.1.4",
+    version="1.1.5",
     author="Manoj A.P",
     author_email="manojap@outlook.com",
     description="Wallpaper downloading bots",
