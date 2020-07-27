@@ -12,7 +12,7 @@ def read(fname):
 
 setup(
     name="wallspyder",
-    version="0.0.4",
+    version="1.1.4",
     author="Manoj A.P",
     author_email="manojap@outlook.com",
     description="Wallpaper downloading bots",
@@ -21,6 +21,7 @@ setup(
     url="http://github.com/manojap/wallspyder",
     packages=['wallspyder'],
     long_description=read('readme.md'),
+    install_requires=['selenium', 'webdriver-manager']
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Fun",
