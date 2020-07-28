@@ -13,17 +13,20 @@ There are plenty of website which make available awesome wallpapers , but only f
 2. http://pexels.com    -- Free stock images 
 3. http://unsplash.com -- Free stock images
 
+
+    
 # How to use 
 
 Go head, clone or install the package and just use the appropriate object to search and download 
 images.
 
-### Requirements
+## Requirements
 - Python 3.7 or later
 - Windows/Linux/Mac
 - Python Modules
     - Selenium
     - webdriver-manager
+    
 
 ## On Windows
 In Windows you can just install the pacakge from github git with `pip` command as follows
