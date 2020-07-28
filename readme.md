@@ -18,8 +18,14 @@ There are plenty of website which make available awesome wallpapers , but only f
 Go head, clone or install the package and just use the appropriate object to search and download 
 images.
 
-## On Windows
+### Requirements
+- Python 3.7 or later
+- Windows/Linux/Mac
+- Python Modules
+    - Selenium
+    - webdriver-manager
 
+## On Windows
 In Windows you can just install the pacakge from github git with `pip` command as follows
 
 ```python
@@ -72,4 +78,5 @@ Even though I included the Firefox and chrome support.I recommend Chrome for `pe
 
 More site will be included in the upcoming. Welcome to join me on this humble effort
 
-Have some picture sites in mind, i can scrap it, let me know.
+# How to Contribute 
+See the `docs` for detailed instructions.
