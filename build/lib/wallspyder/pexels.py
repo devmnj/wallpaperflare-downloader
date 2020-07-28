@@ -36,7 +36,7 @@ class search:
             if browser != 'Firefox':
                 if head_less is True:
                     self.chrome_opt.add_argument('--headless')
-                self.browser = webdriver.Chrome(executable_path=ChromeDriverManager().install(),chrome_options=self.chrome_opt)
+                self.browser = webdriver.Chrome(executable_path=ChromeDriverManager().install())
             else:
                 self.browser = webdriver.Firefox(executable_path=GeckoDriverManager().install())
 
