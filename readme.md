@@ -79,4 +79,4 @@ Even though I included the Firefox and chrome support.I recommend Chrome for `pe
 More site will be included in the upcoming. Welcome to join me on this humble effort
 
 # How to Contribute 
-See the [docs](https://github.com/manojap/wallspyder/tree/master/docs) for detailed instructions.
+See the [Guide](https://github.com/manojap/wallspyder/blob/master/docs/How%20To%20contribute.md) for detailed instructions.
