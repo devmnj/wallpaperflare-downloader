@@ -6,5 +6,4 @@ wallspyder/wallpaperflare.py
 wallspyder.egg-info/PKG-INFO
 wallspyder.egg-info/SOURCES.txt
 wallspyder.egg-info/dependency_links.txt
-wallspyder.egg-info/requires.txt
 wallspyder.egg-info/top_level.txt

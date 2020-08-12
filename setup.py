@@ -1,30 +1,22 @@
-import os
-from setuptools import setup
+import setuptools
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
-# Utility function to read the README file.
-# Used for the long_description.  It's nice, because now 1) we have a top level
-# README file and 2) it's easier to type in the README file than to put a raw
-# string in below ...
-def read(fname):
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
-
-
-setup(
-    name="wallspyder",
-    version="1.1.5",
-    author="Manoj A.P",
+setuptools.setup(
+    name="wallspider",  # Replace with your own username
+    version="0.0.1",
+    author="Manoj",
     author_email="manojap@outlook.com",
-    description="Wallpaper downloading bots",
-    license="BSD",
-    keywords="wallpaper,download,stock images",
-    url="http://github.com/manojap/wallspyder",
-    packages=['wallspyder'],
-    long_description=read('readme.md'),
-    install_requires=['selenium', 'webdriver-manager'],
+    description="Wallpaper downloader",
+    long_description="A set of selenium bots for automate wallpaper/stock free image downloading",
+    long_description_content_type="text/markdown",
+    url="https://github.com/manojap/wallspyder",
+    packages=setuptools.find_packages(),
     classifiers=[
-        "Development Status :: 3 - Alpha",
-        "Topic :: Fun",
-        "License :: OSI Approved :: BSD License",
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
     ],
+    python_requires='>=3.6',
 )
