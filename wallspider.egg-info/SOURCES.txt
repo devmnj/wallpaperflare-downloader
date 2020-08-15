@@ -2,8 +2,5 @@ setup.py
 wallspider.egg-info/PKG-INFO
 wallspider.egg-info/SOURCES.txt
 wallspider.egg-info/dependency_links.txt
+wallspider.egg-info/requires.txt
 wallspider.egg-info/top_level.txt
-wallspyder/__init__.py
-wallspyder/pexels.py
-wallspyder/unsplash.py
-wallspyder/wallpaperflare.py
