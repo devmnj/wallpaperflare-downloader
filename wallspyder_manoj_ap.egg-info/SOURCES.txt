@@ -1,9 +1,0 @@
-setup.py
-wallspyder/__init__.py
-wallspyder/pexels.py
-wallspyder/unsplash.py
-wallspyder/wallpaperflare.py
-wallspyder_manoj_ap.egg-info/PKG-INFO
-wallspyder_manoj_ap.egg-info/SOURCES.txt
-wallspyder_manoj_ap.egg-info/dependency_links.txt
-wallspyder_manoj_ap.egg-info/top_level.txt
