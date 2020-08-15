@@ -2,7 +2,7 @@ import setuptools
 import os
 
 THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
-my_file = os.path.join(THIS_FOLDER, 'README.md')
+my_file = os.path.join(THIS_FOLDER, 'readme.md')
 
 with open(my_file, "r") as fh:
     long_description = fh.read()
