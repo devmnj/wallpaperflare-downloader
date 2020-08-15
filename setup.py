@@ -13,7 +13,7 @@ setuptools.setup(
     author="Manoj",
     author_email="manojap@outlook.com",
     description="Wallpaper downloader",
-    long_description="A set of selenium bots for automate wallpaper/stock free image downloading",
+    long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/manojap/wallspyder",
     packages=setuptools.find_packages(),
