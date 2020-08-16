@@ -7,7 +7,7 @@ with open("readme.md", "r") as fh:
 
 setuptools.setup(
     name="wallspyder",  # Replace with your own username
-    version="1.1.1",
+    version="1.0.1",
     author="Manoj",
     author_email="manojap@outlook.com",
     description="Wallpaper downloader",
