@@ -8,8 +8,8 @@ with open(my_file, "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="wallspider",  # Replace with your own username
-    version="0.0.1",
+    name="wallspyder",  # Replace with your own username
+    version="1.1.1",
     author="Manoj",
     author_email="manojap@outlook.com",
     description="Wallpaper downloader",
