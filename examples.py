@@ -1,3 +1,3 @@
 from wallspyder import wallpaperflare
 
-wallpaperflare.search('naval', browser='Chrome').download(delay=5)
+wallpaperflare.search('beauty').download(delay=5)
