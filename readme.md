@@ -3,19 +3,7 @@
 
 Set of wallpaper download automation scripts using selenium package and Webdriver. You can search 
 and download wall paper in a single line of brilliant python code,using the appropriate
-classes.
-
-# Websites Included
-
-There are plenty of website which make available awesome wallpapers , but only following websites are available
-
-1. http://wallpaperflare.com
-2. http://pexels.com    -- Free stock images 
-3. http://unsplash.com -- Free stock images
-
-
-    
-# How to use 
+classes.How to use 
 
 Go head, clone or install the package and just use the appropriate object to search and download 
 images.
@@ -77,9 +65,4 @@ cars = flareDownloader('cars').download(delay=100)
 
 Even though I included the Firefox and chrome support.I recommend Chrome for `pexels` like sites 
 
-# Future 
 
-More site will be included in the upcoming. Welcome to join me on this humble effort
-
-# How to Contribute 
-See the [Guide](https://github.com/manojap/wallspyder/blob/master/docs/How%20To%20contribute.md) for detailed instructions.
